@@ -47,7 +47,6 @@ filled_in/filled_out=1/-1
 
 cv2.circle(img,centre_coordinates,radius_value,color,'filled_in/filled_out value')
 
-
 #For construction of a polygon
 
 #creating a bunch of points
