@@ -1,0 +1,3 @@
+Requirements to use opencv:
+Libraries:-Numpy,Matplotlib,cv2
+To install you can use command:-"pip install package_name".
