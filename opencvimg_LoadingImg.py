@@ -55,4 +55,3 @@ plt.plot(co-ords,'#color',linewidth=can_be_any_value)
 plt.show() #will show the image with plotted points.
 
 
-
