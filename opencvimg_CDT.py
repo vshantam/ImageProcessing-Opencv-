@@ -26,14 +26,14 @@ corners=np.int0(corners)
 
 #Arranging the corner position.
 for corner in corners:
-	x,y=cv2.ravel()#providing corner coordinates.
+	x,y=corner.ravel()#providing corner coordinates.
 	
 	#Corner will be displayed using circle dots
 	cv2.circle(img,(x,y),5,(255,0,0),-1)
 				#B,G,R
 
 #Displaying processd image with the corners detected.
-cv2.imshow("Image_with_Detected_Corners",gray)
+cv2.imshow("Image_with_Detected_Corners",img)
 
 
 #Wait for kay to be pressed.
