@@ -33,7 +33,7 @@ for (x,y,w,h) in faces:
 
 
 #Displaying IMages
-cv2.imshow("Detected IMage")
+cv2.imshow("Detected IMage",img)
 
 #Waiting for responses
 cv2.waitKey(0)
